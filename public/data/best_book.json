@@ -1,0 +1,38 @@
+[
+  {
+    "image" : "https://image.yes24.com/goods/123155346/L",
+    "title" : "더 마인드",
+    "sub_title" : "무의식이 이끄는 부의 해답",
+    "author" : "하와이 대저택",
+    "company" : "웅진지식하우스",
+    "date" : "2023년 10월",
+    "price" : "17,820",
+    "discount" : "10",
+    "sale_cnt" : "536,982",
+    "review_cnt" : "532"
+  },
+  {
+    "image" : "https://image.yes24.com/goods/122090075/L",
+    "title" : "도시와 그 불확실한 벽",
+    "sub_title" : "오늘의 책 : 문학 뉴스레터 소개",
+    "author" : "무라카미 하루키",
+    "company" : "문학동네",
+    "date" : "2023년 9월",
+    "price" : "17,550",
+    "discount" : "10%",
+    "sale_cnt" : "256,089",
+    "review_cnt" : "68"
+  },
+  {
+    "image" : "https://image.yes24.com/goods/118104953/L",
+    "title" : "모든 삶은 흐른다",
+    "sub_title" : "삶의 지표가 필요한 당신에게 바다가 건네는 말",
+    "author" : "로랑스 드빌레르",
+    "company" : "피카(FIKA)",
+    "date" : "2023년 4월",
+    "price" : "15,120",
+    "discount" : "10%",
+    "sale_cnt" : "566,089",
+    "review_cnt" : "684"
+  }
+]

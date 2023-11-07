@@ -3,6 +3,6 @@ import React from "react";
 
 export default function DayBestSeller(){
   return(
-    <div>DayBestSeller page</div>
+    <div className="content">DayBestSeller page</div>
   );
 }

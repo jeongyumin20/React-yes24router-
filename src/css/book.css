@@ -1,0 +1,136 @@
+/* book.css (css) */
+* {
+  box-sizing: border-box;
+}
+
+button {
+  padding: 10px;
+  border-radius: 5px;
+  background-color: rgb(214, 159, 159);
+  color: white;
+  font-size: 0.7rem;
+  transition: 0.3s;
+}
+
+button:hover {
+  border: 1px solid  rgb(214, 159, 159);
+  background-color: white;
+  color:  rgb(214, 159, 159);
+}
+
+.book_container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 40px;
+  border-bottom: 1px solid rgb(240, 228, 228);
+}
+
+.img_box {
+  width: 18%;
+  margin-right: 5%;
+  text-align: center;
+}
+
+.img_box img {
+  width: 100%;
+  margin-bottom: 5px;
+}
+
+.img_box button {
+  width: 100%;
+}
+
+.book_box {
+  width: 60%;
+}
+
+.book_box .title_box,
+.book_box .info_box,
+.book_box .price_box {
+  margin-bottom: 8px;
+  font-size: 0.9rem;
+}
+
+
+.book_box .title_box .title {
+  font-weight: bold;
+  font-size: 1.1rem;
+  margin-right: 5px;
+}
+
+.book_box .title_box .subtitle,
+.book_box .info_box .author + span,
+.book_box .info_box .date {
+  font-size: 0.8rem;
+  color: gray;
+}
+
+.book_box .info_box .author {
+  margin-right: 3px;
+  font-size: 0.8rem;
+}
+
+.book_box .info_box .company {
+  margin: 0 3px;
+  font-size: 0.8rem;
+}
+
+.book_box .price_box .price {
+  margin-right: 3px;
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+.book_box .price_box .price + span {
+  margin-right: 5px;
+}
+
+.book_box .price_box .discount {
+  color: rgb(138, 79, 79);
+}
+
+.book_btn {
+  width: 150px;
+/*   display: flex;
+  flex-direction: column;
+  justify-content: center; */
+} 
+
+.book_btn * {
+  width: 100%;
+}
+
+.book_btn .cart_container {
+  display: flex;
+  align-items: center;
+  margin: 0 0 5px 0;
+}
+
+.book_btn button {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.book_btn .cart_btn {
+  padding: 5px 8px;
+  margin-bottom: 0;
+}
+
+.cart_btn + span {
+  text-align: center;
+}
+
+.review_box {
+  font-size: 0.8rem;
+  color: gray;
+
+}
+
+.review_box .sale {
+  margin-right: 3px;
+}
+
+.review_box .review_cnt {
+  color: rgb(101, 143, 179);
+}
