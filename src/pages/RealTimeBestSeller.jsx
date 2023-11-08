@@ -1,8 +1,15 @@
 // RealTimeBestSeller.jsx ( src - pages )
-import React from "react";
+import { useParams } from 'react-router-dom';
+import Book from '../components/Book';
+import BookTitle from '../components/BookTitle';
 
 export default function RealTimeBestSeller(){
+  // const {filename} = useParams();
+
   return(
-    <div className="content">RealTimeBestSeller page</div>
+    <>
+      <BookTitle title='실시간 베스트'/>
+      <Book filename='realtime' />
+    </>
   );
 }

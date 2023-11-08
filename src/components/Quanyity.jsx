@@ -15,14 +15,15 @@ export default function Quanyity(){
     setCount(count => count + number)
   }
 
-  const handleSubtract = () => {
+/*   const handleSubtract = () => {
     count <= 1 ? setCount(count = 0) : setCount(count -1);
-  }
+  } */
 
 
   return(
     <p className="cart_container">
-      <input type="checkbox" name="" id="" />
+      <input type="checkbox" name="" id="check_book" />
+      <label htmlFor="check_book"></label>
       <button className="cart_btn" onClick={handleCount}>-</button>
       <span>{count}</span>
       <button className="cart_btn" onClick={handleCount}>+</button>

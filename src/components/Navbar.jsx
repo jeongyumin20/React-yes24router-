@@ -11,7 +11,7 @@ export default function Navbar(){
       <Link to='/day'>일별</Link>
       <Link to='/monthweek'>월별/주별</Link>
       <Link to='/hotprice'>특가</Link>
-      <Link to='/steday'>스테디셀러</Link>
+      <Link to='/steady'>스테디셀러</Link>
     </nav>
   );
 }

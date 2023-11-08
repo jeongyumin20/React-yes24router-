@@ -6,17 +6,17 @@ import BookInfo from './BookInfo';
 import BookBtn from './BookBtn';
 import BookList from './BookList';
 
-export default function Book(){
+export default function Book({filename}){
   const [bookList, setBookList ] = useState([])
 
   useEffect( () => {
-    fetch('./data/best_book.json')
+    fetch(`./data/${filename}_book.json`)
     .then(res => res.json())
     .then(bookList => { 
       // console.log(bookList); 
       setBookList(bookList);
     })
-  }, [])
+  }, [bookList])
 
   return(
       <BookList>

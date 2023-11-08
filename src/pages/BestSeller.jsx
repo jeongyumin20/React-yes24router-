@@ -1,10 +1,13 @@
 // BestSeller.jsx ( src - pages )
-import '../css/book.css'
 import React from "react";
 import Book from '../components/Book';
+import BookTitle from '../components/BookTitle';
 
 export default function BestSeller(){
   return(
-    <Book />
+    <>
+      <BookTitle title='종합 베스트'/>
+      <Book filename='best'/>
+    </>
   );
 }

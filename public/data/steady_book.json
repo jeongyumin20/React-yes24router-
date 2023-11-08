@@ -1,0 +1,26 @@
+[
+  {
+    "image" : "https://image.yes24.com/goods/99308021/L",
+    "title" : "불편한 편의점",
+    "sub_title" : "벚꽃 에디션",
+    "author" : "김호연",
+    "company" : "나무옆의자",
+    "date" : "2021년 04월",
+    "price" : "12,600",
+    "discount" : "10",
+    "sale_cnt" : "536,982",
+    "review_cnt" : "532"
+  },
+  {
+    "image" : "https://image.yes24.com/goods/112253263/L",
+    "title" : "아버지의 해방일지",
+    "sub_title" : "2022 올해의책",
+    "author" : "정지아",
+    "company" : "창비",
+    "date" : "2023년 09월",
+    "price" : "13,500",
+    "discount" : "10",
+    "sale_cnt" : "485,244",
+    "review_cnt" : "342"
+  }
+]

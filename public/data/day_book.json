@@ -1,0 +1,38 @@
+[
+  {
+    "image" : "https://image.yes24.com/goods/122532130/L",
+    "title" : "오늘도 나아가는 중입니다 ",
+    "sub_title" : "세상과 소통하고 싶은 그녀의 생생하고 진솔한 이야기",
+    "author" : "조민",
+    "company" : "참새책방",
+    "date" : "2023년 9월",
+    "price" : "15,120",
+    "discount" : "10",
+    "sale_cnt" : "137,982",
+    "review_cnt" : "36"
+  },
+  {
+    "image" : "https://image.yes24.com/goods/119120517/L",
+    "title" : "역행자 확장판 유니버스 에디션",
+    "sub_title" : "돈·시간·운명으로부터 완전한 자유를 얻는 7단계 인생 공략집",
+    "author" : "자청",
+    "company" : "웅진지식하우스",
+    "date" : "2023년 5월",
+    "price" : "17,550",
+    "discount" : "10",
+    "sale_cnt" : "383,250",
+    "review_cnt" : "135"
+  },
+  {
+    "image" : "https://image.yes24.com/goods/7264453/L",
+    "title" : "그대들, 어떻게 살 것인가",
+    "sub_title" : "",
+    "author" : "요시노 겐자부로 ",
+    "company" : "양철불",
+    "date" : "2016년 6월",
+    "price" : "10,800",
+    "discount" : "10",
+    "sale_cnt" : "113,637",
+    "review_cnt" : "13"
+  }
+]

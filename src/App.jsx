@@ -21,7 +21,7 @@ import SteadySeller from './pages/SteadySeller';
         {path : '/day', element: <DayBestSeller />},
         {path : '/monthweek', element: <MonthWeekBestSeller />},
         {path : '/hotprice', element: <HotPriceBestSeller />},
-        {path : '/steday', element: <SteadySeller />},
+        {path : '/steady', element: <SteadySeller />},
       ],
     }
   ]); 

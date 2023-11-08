@@ -19,7 +19,7 @@
     "company" : "문학동네",
     "date" : "2023년 9월",
     "price" : "17,550",
-    "discount" : "10%",
+    "discount" : "10",
     "sale_cnt" : "256,089",
     "review_cnt" : "68"
   },
@@ -31,7 +31,7 @@
     "company" : "피카(FIKA)",
     "date" : "2023년 4월",
     "price" : "15,120",
-    "discount" : "10%",
+    "discount" : "10",
     "sale_cnt" : "566,089",
     "review_cnt" : "684"
   }

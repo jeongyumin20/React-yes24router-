@@ -3,7 +3,7 @@
   box-sizing: border-box;
 }
 
-button {
+.book_container button {
   padding: 10px;
   border-radius: 5px;
   background-color: rgb(214, 159, 159);
@@ -12,7 +12,7 @@ button {
   transition: 0.3s;
 }
 
-button:hover {
+.book_container button:hover {
   border: 1px solid  rgb(214, 159, 159);
   background-color: white;
   color:  rgb(214, 159, 159);
@@ -102,10 +102,43 @@ button:hover {
 }
 
 .book_btn .cart_container {
+  position: relative;
   display: flex;
   align-items: center;
   margin: 0 0 5px 0;
 }
+
+.book_btn .cart_container input {
+  position: absolute;
+  z-index: 1;
+  top: 2px;
+  right: 42%;
+  display: none;
+}
+
+.book_btn .cart_container label {
+  cursor: pointer;
+}
+
+.book_btn .cart_container label::before {
+  position: absolute;
+  top: 3px;
+  content: '';
+  display: block;
+  width: 16px;
+  height: 16px;
+  border: 1px solid rgb(138, 79, 79);
+  border-radius: 4px;
+}
+
+.book_btn .cart_container input:checked + label::before {
+  content: '✔︎';
+  padding: 1px;
+  border: none;
+  background-color: rgb(65, 77, 101);
+  color: white;
+}
+
 
 .book_btn button {
   display: block;

@@ -1,0 +1,27 @@
+[
+  
+  {
+    "image" : "https://image.yes24.com/goods/122457906/L",
+    "title" : "시대예보: 핵개인의 시대",
+    "sub_title" : "무의식이 이끄는 개인의 시대",
+    "author" : "송길영",
+    "company" : "교보문고",
+    "date" : "2023년 9월",
+    "price" : "18,900",
+    "discount" : "10",
+    "sale_cnt" : "314,985",
+    "review_cnt" : "75"
+  },
+  {
+    "image" : "https://image.yes24.com/goods/118579613/L",
+    "title" : "도둑맞은 집중력",
+    "sub_title" : "집중력 위기의 시대, 삶의 주도권을 되찾는 법",
+    "author" : "요한 하리",
+    "company" : "어크로스",
+    "date" : "2023년 4월",
+    "price" : "16,920",
+    "discount" : "10",
+    "sale_cnt" : "485,121",
+    "review_cnt" : "164"
+  }
+]

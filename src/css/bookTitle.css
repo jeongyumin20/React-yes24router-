@@ -1,0 +1,44 @@
+/* bookTitle.css */
+.booktitle_container {
+  display: flex;
+  align-items: center;
+  padding: 10px 30px 20px 30px;
+  border-bottom: 3px solid rgb(196, 200, 205);
+  /* border-bottom: 3px solid rgb(194, 203, 216); */
+}
+
+.booktitle_container .title_box {
+  margin-right: 1%;
+  font-size: 1.4em;
+  font-weight: 800;
+}
+
+.booktitle_container .title_box .title {
+  color: rgb(95, 103, 117);
+  margin-right: 3px;
+}
+
+.booktitle_container .toggle_btn {
+  border: 0.3px solid rgb(139, 150, 170);
+  border-radius: 4px;
+}
+
+.booktitle_container .toggle_btn button {
+  padding: 8px 30px;
+  /* border-radius: 4px; */
+  background-color: #f5f7f8;
+  color: rgb(139, 150, 170);
+}
+
+.booktitle_container .toggle_btn button:first-child {
+  border-right: 0.3px solid rgb(139, 150, 170);
+}
+
+.booktitle_container .toggle_btn button:hover {
+  background-color: rgb(139, 150, 170);
+  color: #f5f7f8;
+}
+
+.booktitle_container .sub_info {
+  font-size: 0.9em;
+}

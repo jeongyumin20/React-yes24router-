@@ -1,8 +1,15 @@
 // DayBestSeller.jsx ( src - pages )
-import React from "react";
+import { useParams } from "react-router-dom";
+import Book from '../components/Book';
+import BookTitle from '../components/BookTitle';
 
 export default function DayBestSeller(){
+  // const {filename} = useParams();
+
   return(
-    <div className="content">DayBestSeller page</div>
+    <>
+      <BookTitle title='일별 베스트'/>
+      <Book filename='day'/>
+    </>
   );
 }
